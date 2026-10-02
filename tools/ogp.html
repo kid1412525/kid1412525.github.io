@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!-- SNSのリンクプレビュー画像（ogp.png, 1200×630）の元になるページ。
+       文字を書き換えたら README の手順で ogp.png を作り直してください。 -->
+  <title>OGP画像</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap" rel="stylesheet">
+  <style>
+    html, body { margin: 0; }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 1200px;
+      height: 630px;
+      padding: 64px 72px;
+      overflow: hidden;
+      background: #1b1a17;
+      color: #f5f2ea;
+      font-family: "Zen Kaku Gothic New", "Yu Gothic", Meiryo, sans-serif;
+    }
+    .brand { display: flex; align-items: center; gap: 16px; font-size: 30px; font-weight: 700; }
+    .brand::before { content: ""; width: 24px; height: 24px; border-radius: 50%; background: #f0441f; }
+    h1 { margin: 0; font-size: 124px; font-weight: 900; line-height: 1.15; letter-spacing: -0.02em; }
+    .foot { display: flex; align-items: center; gap: 20px; font-family: "DM Mono", monospace; font-size: 26px; letter-spacing: 0.08em; color: #a8a295; }
+    .foot::before { content: ""; width: 56px; height: 3px; background: #f0441f; }
+  </style>
+</head>
+<body>
+  <div class="brand">つくったアプリ置き場</div>
+  <h1>つくったもの、<br>ぜんぶここに。</h1>
+  <div class="foot">APPS BY キッド</div>
+</body>
+</html>

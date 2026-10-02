@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- 仮アイコン: 本物のアイコンと同じグラデーションに、ゲージを描いたもの。
+       本物の画像（PNG）が用意できたら差し替えてください。 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#296bf5"/>
+      <stop offset="1" stop-color="#7a3de3"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="248" height="248" rx="56" fill="url(#bg)"/>
+  <g fill="#fff">
+    <circle cx="84.2" cy="179.8" r="9"/>
+    <circle cx="66" cy="136" r="9"/>
+    <circle cx="84.2" cy="92.2" r="9"/>
+    <circle cx="128" cy="74" r="9"/>
+    <circle cx="171.8" cy="92.2" r="9"/>
+    <circle cx="190" cy="136" r="9"/>
+    <circle cx="171.8" cy="179.8" r="9"/>
+    <circle cx="128" cy="136" r="17"/>
+  </g>
+  <path d="M128 136V100" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+</svg>
